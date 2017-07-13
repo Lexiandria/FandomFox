@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Girls Who Code\Desktop\FandomFox\FandomFoxForum\myvenv"
+set "VIRTUAL_ENV=C:\Users\Girls Who Code\desktop\FandomFox\FandomFoxForum\myvenv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
