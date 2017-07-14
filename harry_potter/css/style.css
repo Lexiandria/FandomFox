@@ -38,7 +38,7 @@ font-family: 'Berkshire Swash', cursive;
   height: 305px;
   background-color: green;
   border: 6px solid lightgreen;
-  
+  margin:20px;
 }
 /* The CSS below is added to hopefully achieve the effect you're looking for. */
 
