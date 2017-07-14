@@ -1,3 +1,6 @@
+font-family: 'Berkshire Swash', cursive;
+
+
 .tooltip {
     position: relative;
     display: inline-block;
@@ -23,11 +26,26 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+<center>
+#con {
+  width: 500px;
+  height: 200px;
+}
+#box1 {
+  float: left;
+  font-size: 25px;
+  width: 305px;
+  height: 305px;
+  background-color: green;
+  border: 6px solid lightgreen;
+  margin:20px;
+}
+/* The CSS below is added to hopefully achieve the effect you're looking for. */
 
-
-<h2>Top Tooltip</h2>
-<p>Move the mouse over the text below:</p>
-
-<div class="tooltip">Hover over me
-  <span class="tooltiptext">Tooltip text</span>
-</div>
+#text1 {
+  display: none;
+}
+#box1:hover #text1 {
+  display: block;
+}
+</center>
