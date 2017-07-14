@@ -2,6 +2,7 @@
   width: 250px;
   height: 250px;
   margin-top: 20px;
+  margin-bottom: 400px;
   float:left;
   align:center;
   opacity: 1;
@@ -29,11 +30,20 @@
 
 .paisley:hover span{
    visibility: visible;
-   font-family: 'Berkshire Swash';
-   font-size: 22px;
-   font-color: '#ffffff';
-   text-align:left;
 
+}
+h1{
+  font-size:500%;
+  text-align:center;
+  font-family: 'Berkshire Swash';
+  color: black;
+}
+header{
+  font-family: 'Berkshire Swash';
+  color: white;
+  margin-left:15px;
+  text-align:left;
+  font-size:150%;
 }
 
 .slytherin {
