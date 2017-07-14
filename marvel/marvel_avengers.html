@@ -47,18 +47,24 @@ window.onclick = function(event) {
 <div class="dropdown">
   <button onclick="myFunction()" class="round-button"><img onclick="myFunction()" src="avengers-button.png"  width="70px" height="75px" align="center" /></button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#">Captain America</a>
-    <a href="#">SpiderMan</a>
-    <a href="#">Iron Man</a>
-    <a href="#">The Hulk</a>
-    <a href="#">Thor</a>
-    <a href="#">Black Widow</a>
-    <a href="#">Hawkeye</a>
-    <a href="#">Scarlet Witch</a>
-    <a href="#">Quicksilver</a>
-    <a href="#">Black Panther</a>
+    <a href="#" data-toggle="tooltip" title="'Steven Rogers'" style="color:#2A80D6;">Captain America</a>
+    <a href="#" data-toggle="tooltip" title="'Peter Parker'" style="color:blue">SpiderMan</a>
+    <a href="#" data-toggle="tooltip" title="'Tony Stark'" style="color:#930909;">Iron Man</a>
+    <a href="#" data-toggle="tooltip" title="'Dr. Bruce Banner'" style="color:green;">The Hulk</a>
+    <a href="#" data-toggle="tooltip" title="'Thor Odinson'" style="color:#685A5A;">Thor</a>
+    <a href="#" data-toggle="tooltip" title="'Natasha Romanoff'" style="color:#D64A2A;">Black Widow</a>
+    <a href="#" data-toggle="tooltip" title="'Clinton Barton'" style="color:#581845;">Hawkeye</a>
+    <a href="#" data-toggle="tooltip" title="'Wanda Maximoff'" style="color:#DF0808;">Scarlet Witch</a>
+    <a href="#" data-toggle="tooltip" title="'Pietro Maximoff'" style="color:#B6B1B1;">Quicksilver</a>
+    <a href="#" data-toggle="tooltip" title="'T'Challa'" style="color:black;">Black Panther</a>
   </div>
 </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 
 </body>
 </html>
