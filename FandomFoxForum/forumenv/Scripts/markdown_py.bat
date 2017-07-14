@@ -1,0 +1,1 @@
+@"c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\scripts\python.exe" "c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\Scripts\markdown_py" %*
