@@ -1,27 +1,4 @@
-font-family: 'Berkshire Swash', cursive;
 
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -33,12 +10,12 @@ font-family: 'Berkshire Swash', cursive;
 }
 #box1 {
   float: left;
-  font-size: 25px;
-  color:#999a9b;
+  font-size: 20px;
+  color:#757575;
   width: 305px;
-  height: 305px;
-  background-color: green;
-  border: 6px solid lightgreen;
+  height: 205px;
+  background-color: lightgreen;
+  border: 6px solid green;
   margin:20px;
 }
 /* The CSS below is added to hopefully achieve the effect you're looking for. */
