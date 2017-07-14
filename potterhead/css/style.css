@@ -1,0 +1,16 @@
+h1{
+  font-size:500%;
+  text-align:center;
+  font-family: 'Berkshire Swash';
+  color: black;
+}
+.banner{
+  width: 100%;
+	height: 100px;
+	background: #250e49;
+	position: static;
+	z-index: 2;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+  width: 80%;
+	margin: 0 auto;
+}
