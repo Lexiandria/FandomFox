@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Girls Who Code\Desktop\FandomFox\FandomFoxForum\myvenv"
+$env:VIRTUAL_ENV="C:\Users\Girls Who Code\desktop\FandomFox\FandomFoxForum\myvenv"
 
 # Set the prompt to include the env name
 # Make sure _OLD_VIRTUAL_PROMPT is global
