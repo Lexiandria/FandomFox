@@ -1,1 +1,0 @@
-@"C:\Users\Girls Who Code\Desktop\FandomFox\FandomFoxForum\myvenv\Scripts\python.exe" "C:\Users\Girls Who Code\Desktop\FandomFox\FandomFoxForum\myvenv\Scripts\markdown_py" %*
