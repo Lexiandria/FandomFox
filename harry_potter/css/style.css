@@ -34,6 +34,7 @@ font-family: 'Berkshire Swash', cursive;
 #box1 {
   float: left;
   font-size: 25px;
+  color:#999a9b;
   width: 305px;
   height: 305px;
   background-color: green;

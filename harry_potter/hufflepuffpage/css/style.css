@@ -1,0 +1,52 @@
+font-family: 'Berkshire Swash', cursive;
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+<center>
+#con {
+  width: 500px;
+  height: 200px;
+}
+#box1 {
+  float: left;
+  font-size: 25px;
+  color:#873502;
+  width: 305px;
+  height: 305px;
+  background-color: yellow;
+  border: 6px solid lightyellow;
+  margin:20px;
+}
+/* The CSS below is added to hopefully achieve the effect you're looking for. */
+
+#text1 {
+  display: none;
+}
+#box1:hover #text1 {
+  display: block;
+}
+</center>
