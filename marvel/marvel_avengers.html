@@ -16,11 +16,49 @@
 </style>
 
 <body>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.round-button')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 
 <h1 style="text-align:center;"><img src="MarvelLogo.svg.png" alt="Marvel-logo" width="104" height="40"/>  Comics Universe</h1>
 <h3 style="text-align:center;">The Marvel Universe is the shared universe where the stories in most American <br/>comic book titles and other media published by Marvel Entertainment take place. <br/>Marvel superheroes such as the Avengers, are from this universe.</h3>
+<
 
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="round-button"><img onclick="myFunction()" src="avengers-button.png"  width="70px" height="75px" align="center" /></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Captain America</a>
+    <a href="#">SpiderMan</a>
+    <a href="#">Iron Man</a>
+    <a href="#">The Hulk</a>
+    <a href="#">Thor</a>
+    <a href="#">Black Widow</a>
+    <a href="#">Hawkeye</a>
+    <a href="#">Scarlet Witch</a>
+    <a href="#">Quicksilver</a>
+    <a href="#">Black Panther</a>
+  </div>
+</div>
 
 </body>
 </html>
