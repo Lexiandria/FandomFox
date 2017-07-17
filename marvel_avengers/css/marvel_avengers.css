@@ -66,6 +66,11 @@ body{
 }
 #box1:hover #text1 {
   display: block;
+
+}
+#box1:hover #image {
+  display: none;
+  
 }
 </center>
 
