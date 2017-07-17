@@ -1,4 +1,4 @@
-#!c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\scripts\python.exe
+#!c:\users\newmoongamer\desktop\fandomfoxforum\forumenv\scripts\python.exe
 from __future__ import print_function
 import base64
 import os

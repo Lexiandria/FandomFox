@@ -1,4 +1,4 @@
-#!c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\scripts\python.exe
+#!c:\users\newmoongamer\desktop\fandomfoxforum\forumenv\scripts\python.exe
 from django.core import management
 
 if __name__ == "__main__":

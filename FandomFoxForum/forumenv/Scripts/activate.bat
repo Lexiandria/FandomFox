@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\users\newmoongamer\desktop\FandomFox\FandomFoxForum\forumenv"
+set "VIRTUAL_ENV=C:\Users\newmoongamer\Desktop\FandomFoxForum\forumenv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\users\newmoongamer\desktop\FandomFox\FandomFoxForum\forumenv'; else echo '/C/users/newmoongamer/desktop/FandomFox/FandomFoxForum/forumenv'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\newmoongamer\Desktop\FandomFoxForum\forumenv'; else echo '/C/Users/newmoongamer/Desktop/FandomFoxForum/forumenv'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,4 +1,4 @@
-#!c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\scripts\python.exe
+#!c:\users\newmoongamer\desktop\fandomfoxforum\forumenv\scripts\python.exe
 from misago.core.setup import start_misago_project
 
 
