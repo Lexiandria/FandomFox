@@ -1,0 +1,36 @@
+body{
+  background: linear-gradient(rgba(37,14,73,0), rgba(37,14,73,1));
+}
+h1{
+  font-size:500%;
+  text-align:center;
+  font-family: 'Berkshire Swash';
+  color: black;
+}
+h2{
+  font-family:Berkshire Swash;
+  font-size:320%;
+  margin-top:40px;
+  margin-bottom:0px;
+  margin-left:75px;
+}
+p{
+  font-family:Berkshire Swash;
+  font-size:150%;
+  margin-left:85px;
+}
+.mylist{
+  font-family:Berkshire Swash;
+  font-size:150%;
+  margin-left:85px;
+}
+.banner{
+  width: 100%;
+	height: 100px;
+	background: #250e49;
+	position: static;
+	z-index: 2;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+  width: 80%;
+	margin: 0 auto;
+}
