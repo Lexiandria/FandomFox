@@ -1,12 +1,22 @@
-body{
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  margin: 0 auto;
+  max-width: none;
   background: linear-gradient(rgba(45,21,126,0), rgba(45,21,126,1));
   color: #fff;
+  font-weight: 300;
   page-width: 100%;
-    margin: 0;
+}
+body
+{
+  margin: 0;
   padding: 0;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
-a{
+
+a
+{
   text-decoration: none;
   color: #b2b2b2;
 
@@ -100,8 +110,8 @@ a:hover
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
-  /*padding: 50px;
-  padding-top: 125px;*/
+  padding: 50px;
+  padding-top: 125px;
 
   background: #ffffff;
   list-style-type: none;
@@ -124,23 +134,53 @@ a:hover
   transform: scale(1.0, 1.0);
   opacity: 1;
 }
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
-h6{
-  text-align: center;
-  margin: -2px;
-  font: bold 260% Consolas, Monaco, monospace;
+.slottt-machine-recipe {
+  margin: 50px 150px;
+  max-width: none;
+  margin-top: 50px;
+  float: right;
 }
-h1 {
-  text-align: center;
-  font: bold 300% Consolas, Monaco, monospace;
-    border-right: .1em solid white;
-    width: 16.5em;
-    width: 42ch;
-    margin: 2em 2.5em;
-    white-space: nowrap;
+
+.slottt-machine-recipe__mask {
+    width: 100%;
+    height: 150px;
     overflow: hidden;
-    -webkit-animation: typing 2s steps(42, end),
-               blink-caret .5s step-end infinite alternate;
+    position: relative;
+    display: inline-block;
+    margin-bottom: -40px;
+}
+
+.slottt-machine-recipe__items_container {
+    position: absolute;
+}
+
+.slottt-machine-recipe__item {
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0px;
+    padding: 0px;
+    background-size: contain;
+}
+
+
+
+body {
+  font-family: Helvetica, Arial, sans serif;
+}
+
+.recipe_if, .recipe_then {
+    font-weight: bold;
+    font-size: 120px;
+}
+
+.tagline {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+a {
+ font-weight: bold;
+ text-decoration: none;
+ color: #33CCFF;
 }
