@@ -1,4 +1,4 @@
-#!c:\users\newmoongamer\desktop\fandomfox\fandomfoxforum\forumenv\scripts\python.exe
+#!c:\users\newmoongamer\desktop\fandomfoxforum\forumenv\scripts\python.exe
 """PILdriver, an image-processing calculator using PIL.
 
 An instance of class PILDriver is essentially a software stack machine
