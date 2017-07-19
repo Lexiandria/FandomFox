@@ -49,11 +49,11 @@ nav {
 }
 
 .logo {
-	font-family: 'Lobster', cursive;
+	font-family: 'Pacifico', cursive;
 	font-size: 4em;
 	font-weight: 400;
 	float: left;
-	padding: 5px;
+	padding: 0px;
 	margin-top: 25px;
 }
 
