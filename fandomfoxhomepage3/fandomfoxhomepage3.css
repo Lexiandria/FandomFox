@@ -49,11 +49,11 @@ nav {
 }
 
 .logo {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Lobster', cursive;
 	font-size: 4em;
 	font-weight: 400;
 	float: left;
-	padding: 0px;
+	padding: 5px;
 	margin-top: 25px;
 }
 
@@ -86,8 +86,8 @@ nav {
 margin:50px 570px 0 570px;
 border: 1px solid #7c7c7c;
 box-shadow:1px 0px 3px #444;
-width:150px;
-height:180px;
+width:270px;
+height:380px;
 white-space:normal;
 overflow:hidden;
 }
@@ -117,8 +117,8 @@ font-family:'VT323', monospace;
 font-size: 25px;
 color: #5a5c5e;
 border-radius: 8px;
-width: 152px;
-length: 500px;
+width: 270px;
+length: 480px;
 box-shadow: 0 0 20px #eee;
 margin: 0px 570px;
 padding: 2px;
@@ -128,3 +128,4 @@ flex-wrap: wrap;
 }
 .startBtn:hover {
   background-position: right center;
+
