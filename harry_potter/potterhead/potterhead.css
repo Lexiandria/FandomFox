@@ -1,0 +1,64 @@
+.foo {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 400px;
+  float:left;
+  align:center;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+}
+.foo:hover{
+  opacity: 0.5;
+     pdis { opacity: 0; transition: opacity 0.5s linear;}
+
+}
+
+.gryffindor {
+  background: #740001;
+  margin-left:150px;
+  margin-right: 20px;
+
+
+}
+.paisley span{
+   visibility: hidden;
+}
+
+.paisley:hover span{
+   visibility: visible;
+
+}
+h1{
+  font-size:500%;
+  text-align:center;
+  font-family: 'Berkshire Swash';
+  color: black;
+}
+header{
+  font-family: 'Berkshire Swash';
+  color: white;
+  margin-left:15px;
+  text-align:left;
+  font-size:150%;
+}
+
+.slytherin {
+  background: #10670c;
+  margin-right:20px;
+ 
+}
+
+.ravenclaw {
+  background: #250e49;
+  margin-right:20px;
+  
+}
+
+.hufflepuff{
+  background: #ecb939;
+  margin-: 150px;
+}

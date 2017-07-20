@@ -42,7 +42,6 @@ body{
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
 <center>
 #con {
   width: 500px;
@@ -73,13 +72,6 @@ body{
   display: none;
   
 }
-#login{
-  float:right;
-  margin-right: -95px;
-  margin-left: 20px;
-  margin-top:70px;
-  font-family: 'Pacifico', cursive;
-
 </center>
 
 /* Dropdown Button */
